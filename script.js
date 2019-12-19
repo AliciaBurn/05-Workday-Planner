@@ -14,8 +14,9 @@ $(document).ready(function(){
     $("#currentDay").text(moment().format("MMMM Do YYYY"));
 });
 
-
-    var currentHour = moment().format('HH');
+    var day = new Date();
+    var currentHour = day.getHours();
+    
 
     $(".time-block").each(function() {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
@@ -40,7 +41,6 @@ $(document).ready(function(){
     });
 
     function getData() {
-      //each hour = local get item(KEY hour-9) // text to description box of hour 9
       var hour9 = localStorage.getItem("hour-9");
       $("#hour-9 .description").text(hour9);
 
