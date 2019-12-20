@@ -15,12 +15,15 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: #173f5f;
+    color: #f5eded;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
 
+  .display-3 {
+    font-family: 'Dancing Script', cursive;
+  }
   
   
   .description{
@@ -50,20 +53,20 @@ body {
   }
   
   .present {
-    background-color: #a82f29;
+    background-color: #ed553b;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: #3CAEA3;
+    color: cornsilk;
   }
   
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: #20639B;
     color: white;
   }
   
