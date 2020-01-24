@@ -1,9 +1,13 @@
 # 05-homework
 Read Me
 
-Project: Day Planner
+Project: Work Day Planner
+
 Author: Alicia Burn
+
 Date: 12/19/2019
+
+https://aliciaburn.github.io/05-homework/
 
 ******************************
 *  TABLE OF CONTENTS         *
